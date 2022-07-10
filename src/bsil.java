@@ -1,6 +1,4 @@
-package Project.sample;
-
-public class Main {
+public class bsil {
     public static void main(String[] args) {
 
         int myValue = 10000;
