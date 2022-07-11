@@ -42,9 +42,11 @@ public class Fifth {
         System.out.println(("10 - 2 = "+ result));
 
         boolean isAlien = false;
-        if (isAlien == false)
+        if (!isAlien) {
             System.out.println("it is not an alien!");
+        }
         else System.out.println("no");
+
 
 
 
