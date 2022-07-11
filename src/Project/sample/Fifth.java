@@ -47,6 +47,10 @@ public class Fifth {
         }
         else System.out.println("no");
 
+        int topScore = 100;
+        if (topScore == 100) {
+            System.out.println("You got the high score");
+        }
 
 
 
