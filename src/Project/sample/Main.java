@@ -30,5 +30,17 @@ public class Main {
         long bigLongLiteralValue = 2_147_483_647_234L;
         System.out.println(bigLongLiteralValue);
 
+        int myTotal = (myMinIntValue / 2);
+
+        byte myNewByteValue = (byte) (myMinByteValue / 2);
+
+        short myNewShortValue = (short) (myMinShortValue / 2);
+
+        byte ones = 127;
+        short sec = 23590;
+        int the = 201902580;
+        long four = (50000L + (10L * (ones + sec + the)));
+        System.out.println("answer is " + four);
+
     }
 }
