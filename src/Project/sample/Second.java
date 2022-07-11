@@ -21,5 +21,9 @@ public class Second {
         System.out.println("MyFloatValue= " + myFloatValue);
         System.out.println("MyDoublealue= " + myDoubleValue);
 
+        int ppp = 200;
+        double kkk = ppp * 0.45359237;
+        System.out.println(ppp + " pounds = " + kkk + " kg");
+
     }
 }
