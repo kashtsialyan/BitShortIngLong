@@ -47,9 +47,23 @@ public class Fifth {
         }
         else System.out.println("no");
 
-        int topScore = 100;
-        if (topScore == 100) {
-            System.out.println("You got the high score");
+        int topScore = 80;
+        if (topScore < 100) {
+            System.out.println("You got the high score!");
+        }
+
+        int secondTopScope = 95;
+        if ((topScore > secondTopScope) && (topScore < 100)) {
+            System.out.println("Greater than second top score and less than 100");
+        }
+
+        if ((topScore > 90) || (secondTopScope <=90)) {
+            System.out.println("Either ot both of the conditions are true");
+        }
+
+        int newValue = 50;
+        if (newValue == 50) {
+            System.out.println("this is true");
         }
 
 
