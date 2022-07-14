@@ -76,5 +76,16 @@ public class Fifth {
             System.out.println("wasCar is true");
         }
 
+        double FirstVar = 20.00d;
+        double SecondVar = 80.00d;
+        double ThirdVar = (FirstVar + SecondVar) * 100.00d;
+        ThirdVar %= 40.00d;
+        boolean wasvar = ThirdVar == 0 ? true : false;
+        System.out.println(wasvar);
+        if (!wasvar) {
+            System.out.println("Got some remainder");
+        }
+
+
     }
 }
